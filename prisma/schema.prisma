@@ -10,7 +10,7 @@ datasource db {
   url      = "file:./database.db"
 }
 
-model Products {
+model Product {
   id Int @id @default(autoincrement())
   name String
   price Float
